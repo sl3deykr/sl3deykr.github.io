@@ -1,0 +1,24 @@
+site_name: Sl3dyKR Site
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Contact: contact.md
+
+theme:
+  name: material
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode

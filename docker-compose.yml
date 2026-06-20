@@ -1,0 +1,10 @@
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material
+    container_name: sl3dykr_mkdocs
+    user: "${UID}:${GID}"
+    ports: 
+      - "8383:8383"
+    volumes:
+      - ./:/docs
+    command: serve -a 0.0.0.0:8383 --dev-addr=0.0.0.0:8383 --dirtyreload
