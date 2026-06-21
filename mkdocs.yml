@@ -1,15 +1,9 @@
-site_name: Sl3dyKR Site
+site_name: Sl3deyKR
 
 nav:
   - Home: index.md
   - About: about.md
-  - Contact: contact.md
 
 theme:
   name: material
 
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - search.suggest
-    - search.highlight
