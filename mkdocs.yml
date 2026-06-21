@@ -3,7 +3,12 @@ site_name: Sl3deyKR - AI for Everyday Life
 nav:
   - Home: index.md
   - About: about.md
+  - Blog: blog/index.md
 
 theme:
   name: material
+
+plugins:
+  - search
+  - blog
 
