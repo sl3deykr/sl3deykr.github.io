@@ -1,6 +1,6 @@
 # Hello World
 
-> I am Sl3deyKR
+> I am Sl3deyKR. :)
 
 # Mission
 
